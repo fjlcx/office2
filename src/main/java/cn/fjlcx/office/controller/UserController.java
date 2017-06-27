@@ -12,5 +12,4 @@ class UserController {
 	public void user(){
 		System.out.print("hello world");
 	}
-
 }

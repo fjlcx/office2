@@ -4,6 +4,5 @@
 
   <insert id="insertUser">
 
-
   </insert>
 </mapper>
