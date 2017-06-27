@@ -5,4 +5,11 @@
   <insert id="insertUser">
 
   </insert>
+  <select id="selectAllUser" resultType="User">
+    SELECT * FROM oa_user
+  </select>
+
+  <select id="selectUserById" parameterType="int" resultType="User">
+    SELECT * FROM oa_user WHERE us_id = #{us_id}
+  </select>
 </mapper>
